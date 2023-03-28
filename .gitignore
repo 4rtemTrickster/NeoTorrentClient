@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+.vs
+.idea
+
+# Binaries
+**/bin/*
+!vendor/bin/premake/
+!vendor/bin/premake/premake5.exe
+bin-int/
+
+*.log
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
