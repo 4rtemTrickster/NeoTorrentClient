@@ -1,0 +1,6 @@
+[submodule "Vendor/Walnut"]
+	path = Vendor/Walnut
+	url = https://github.com/4rtemTrickster/Walnut-for-NeoTorrentClient
+[submodule "Vendor/spdlog"]
+	path = Vendor/spdlog
+	url = https://github.com/gabime/spdlog
