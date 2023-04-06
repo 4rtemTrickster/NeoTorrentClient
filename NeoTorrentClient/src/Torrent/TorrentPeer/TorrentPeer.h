@@ -29,9 +29,7 @@ namespace NTC
             return instance_.Connect(ip, port, std::move(handshakeMsg));
         }
 
-        static bool OnStart() { return instance_.Start(); }
-        static void OnStop() { instance_.Stop(); }
-        static void OnUpdate() { instance_.Update(); }
+        static TorrentPeer& GetInstance() { return instance_; }
         
     protected:
         static TorrentPeer instance_;

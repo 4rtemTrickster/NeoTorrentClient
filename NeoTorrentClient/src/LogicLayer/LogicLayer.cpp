@@ -9,7 +9,7 @@ namespace NTC
     void LogicLayer::OnAttach()
     {
         Logger::Init();
-        TorrentPeer::OnStart();
+        TorrentPeer::GetInstance().Start();
 
         //TODO: Change to settings file
         AppSettings::ClientId = "-NT0001-";
@@ -25,11 +25,11 @@ namespace NTC
 
     void LogicLayer::OnDetach()
     {
-        TorrentPeer::OnStop();
+        TorrentPeer::GetInstance().Stop();
     }
 
     void LogicLayer::OnUpdate(float ts)
     {
-        TorrentPeer::OnUpdate();
+        TorrentPeer::GetInstance().Update();
     }
 }
