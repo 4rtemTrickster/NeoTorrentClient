@@ -7,6 +7,5 @@ namespace NTC
     public:
         static std::string ClientId;
         static uint16_t Port;
-        static bool bIsWorking;
     };
 }

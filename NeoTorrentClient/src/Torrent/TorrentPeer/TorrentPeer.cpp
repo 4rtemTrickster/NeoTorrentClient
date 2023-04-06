@@ -7,18 +7,6 @@ namespace NTC
 {
     TorrentPeer TorrentPeer::instance_;
 
-    void TorrentPeer::StartLoop()
-    {
-        instance_.Start();
-
-        while (AppSettings::bIsWorking)
-        {
-            instance_.Update();
-        }
-
-        instance_.Stop();
-    }
-
     TorrentPeer::TorrentPeer()
         : IPeer(AppSettings::Port)
     {

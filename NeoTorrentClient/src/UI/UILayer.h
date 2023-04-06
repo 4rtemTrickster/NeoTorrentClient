@@ -23,8 +23,5 @@ namespace NTC
         virtual void OnDetach() override;
 
         virtual void OnUIRender() override;
-
-    protected:
-        std::future<void> netF;
     };
 }
