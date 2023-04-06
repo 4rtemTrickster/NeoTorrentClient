@@ -12,11 +12,13 @@ workspace "NeoTorrentClient"
     }
 
     include "Vendor/Walnut"
+    include "Vendor/ImGuiFileDialog-For-NeoTorrentClient"
+
 
 
 project "NeoTorrentClient"
     location "NeoTorrentClient"
-    kind "WindowedApp"
+    kind "ConsoleApp"
     language "C++"
     cppdialect "C++20"
     targetdir "bin/%{cfg.buildcfg}"
@@ -53,11 +55,13 @@ project "NeoTorrentClient"
 
         "%{prj.name}/src",
         "Vendor/spdlog/include",
+        "Vendor/ImGuiFileDialog-For-NeoTorrentClient"
     }
 
     links
     {
-        "Walnut"
+        "Walnut",
+        "ImGuiFileDialog"
     }
 
     filter "system:windows"

@@ -3,4 +3,4 @@
 	url = https://github.com/gabime/spdlog
 [submodule "Vendor/Walnut"]
 	path = Vendor/Walnut
-	url = https://github.com/4rtemTrickster/Walnut-for-NeoTorrentClient
+	url = https://github.com/4rtemTrickster/Walnut-for-NeoTorrentClient.git
