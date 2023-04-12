@@ -51,21 +51,20 @@ cd vcpkg
 
 
 
-[1]: (https://blog.jse.li/posts/torrent/)
-[2]: (https://markuseliasson.se/article/bittorrent-in-python/)
-[3]: (https://www.seanjoflynn.com/research/bittorrent.html)
-[4]: (https://wiki.theory.org/BitTorrentSpecification)
-[5]: (http://bittorrent.org/beps/bep_0003.html)
-
-[6]: (https://github.com/gabime/spdlog/tree/069a2e8fc947f63855d770fdc3c3eb427f19988f)
-[7]: (https://premake.github.io/)
-[8]: (https://github.com/4rtemTrickster/Walnut-for-NeoTorrentClient/tree/baf646cbc8d217bd47314fbc45cca97ccf010094)
-[9]: (https://github.com/TheCherno/Walnut)
-[10]: (https://github.com/4rtemTrickster/ImGuiFileDialog-For-NeoTorrentClient/tree/d8ce36c91f59206411b51965d9a82f0b42c10497)
-[11]: (https://github.com/aiekick/ImGuiFileDialog)
-[12]: (https://www.boost.org/)
-[13]: (https://github.com/libcpr/cpr)
-[14]: (https://github.com/Microsoft/vcpkg)
-[15]: (https://visualstudio.com)
-[16]: (https://vulkan.lunarg.com/sdk/home#windows)
-[17]: (https://www.jetbrains.com/rider/)
+[1]: https://blog.jse.li/posts/torrent/
+[2]: https://markuseliasson.se/article/bittorrent-in-python/
+[3]: https://www.seanjoflynn.com/research/bittorrent.html
+[4]: https://wiki.theory.org/BitTorrentSpecification
+[5]: http://bittorrent.org/beps/bep_0003.html
+[6]: https://github.com/gabime/spdlog/tree/069a2e8fc947f63855d770fdc3c3eb427f19988f
+[7]: https://premake.github.io/
+[8]: https://github.com/4rtemTrickster/Walnut-for-NeoTorrentClient/tree/baf646cbc8d217bd47314fbc45cca97ccf010094
+[9]: https://github.com/TheCherno/Walnut
+[10]: https://github.com/4rtemTrickster/ImGuiFileDialog-For-NeoTorrentClient/tree/d8ce36c91f59206411b51965d9a82f0b42c10497
+[11]: https://github.com/aiekick/ImGuiFileDialog
+[12]: https://www.boost.org/
+[13]: https://github.com/libcpr/cpr
+[14]: https://github.com/Microsoft/vcpkg
+[15]: https://visualstudio.com
+[16]: https://vulkan.lunarg.com/sdk/home#windows
+[17]: https://www.jetbrains.com/rider/
